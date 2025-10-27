@@ -24,7 +24,7 @@ Todas as páginas terão que seguir um padrão pré-definido. Como não aprendem
 
 ## Estrutura
 
-*No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma*.
+\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma_.
 
 No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
 
