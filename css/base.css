@@ -27,10 +27,12 @@ body {
     background-color: rgb(234, 228, 233);
     padding: 10px 20px 0px;
 }
+.menu-logo-container img {
+    width: 40px;
+}
 .menu-itens {
     padding-left: 10px;
 }
-
 .header {
     display: flex;
     background-color: rgb(249, 230, 186);
@@ -40,17 +42,20 @@ body {
     height: 100px;
     padding: 5px;
 }
+.header-logo-container img {
+    height: 100px;
+}
 .header-description-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    flex-grow: 1;
+    flex-grow: 1; /*the remaining space will be distributed equally among them*/
     padding: 0px;    
 }
 .header-description-container p {  
     padding: 0px;
-    margin: 5px;      
+    margin: 5px; /*space around element*/     
 }
 .content {
     background-color: rgb(238, 239, 234);
