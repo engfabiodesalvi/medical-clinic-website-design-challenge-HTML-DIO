@@ -71,21 +71,39 @@ body {
     display: flex;
     flex-direction: row;    
     justify-content:center;
-    background-color: rgb(209, 114, 190);
+    /*background-color: rgb(209, 114, 190);*/
 }
 .table-exams-container div, .table-specialist-container div{    
     background-color: beige;
 }
-.table-specialist, .table-exams {    
+.table-specialist {    
     width: 400px;
+    border: 3px solid rgb(1, 1, 68);    
+}
+.table-exams {    
+    width: 550px;
+    border: 3px solid rgb(1, 1, 68);    
+}
+.exam-title {
+    font-weight: bold;
+    background-color: rgb(238, 238, 99);
+    border-top: 3px solid rgb(1, 1, 68);
+    border-bottom: 3px solid rgb(1, 1, 68);
+}
+.exam-item:nth-child(even) td, .espec-item:nth-child(even) td {
+    background-color: rgb(237, 236, 210);
 }
 .table-specialist thead tr, .table-exams thead tr {
-    background-color: rgb(202, 222, 247);
-    color: rgb(3, 3, 87);
-    align-items: center;
+    background-color: rgb(1, 1, 68);
+    color: rgb(228, 236, 251);    
+    align-items: center;    
 }
-.table-specialist tfoot td, .table-exams tfoot td {
-    background-color:rgb(183, 237, 255);
+.table-specialist tbody tr td:nth-child(n+2):nth-child(-n+4), .table-exams tbody tr td:nth-child(n+2):nth-child(-n+4) {
+    text-align: center;
+}
+.table-specialist tfoot tr td, .table-exams tfoot tr td {
+    background-color:rgb(221, 246, 255);
     color: rgb(6, 30, 30);
+    border-top: 3px solid rgb(1, 1, 68);
     align-items: center;
 }
