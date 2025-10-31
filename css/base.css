@@ -73,16 +73,20 @@ body {
     justify-content:center;
     /*background-color: rgb(209, 114, 190);*/
 }
+/*
 .table-exams-container div, .table-specialist-container div{    
     background-color: beige;
+    border: 3px solid rgb(1, 1, 68);
 }
+*/
 .table-specialist {    
-    width: 400px;
-    border: 3px solid rgb(1, 1, 68);    
+    width: 400px;    
 }
 .table-exams {    
-    width: 550px;
-    border: 3px solid rgb(1, 1, 68);    
+    width: 550px;   
+}
+.table-specialist, .table-exams {
+    border: 3px solid rgb(1, 1, 68);
 }
 .exam-title {
     font-weight: bold;
@@ -98,6 +102,11 @@ body {
     color: rgb(228, 236, 251);    
     align-items: center;    
 }
+ .espec-item:nth-child(n):hover td, .exam-item:nth-child(n):hover td {
+    background-color:rgb(158, 255, 174);
+    cursor: pointer;
+}
+/*Select columns 2 to 4 to apply styles*/
 .table-specialist tbody tr td:nth-child(n+2):nth-child(-n+4), .table-exams tbody tr td:nth-child(n+2):nth-child(-n+4) {
     text-align: center;
 }
