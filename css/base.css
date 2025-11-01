@@ -139,8 +139,12 @@ fieldset div {
     margin: 10px 10px;    
     /*background-color: rgb(157, 157, 242);*/
 }
-fieldset div input, fieldset div textarea {
+fieldset div label {
+    display: block;
+}
+fieldset div label, fieldset div input, fieldset div textarea {
     width:98%;
+    /*background-color: aqua;*/
 }
 fieldset div textarea {
     resize: none;
