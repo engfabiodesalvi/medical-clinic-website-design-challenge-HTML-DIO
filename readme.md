@@ -1,3 +1,81 @@
+### [Versão em português](#English-version)
+# Project Challenge  
+### Author: Fabio Toledo Bonemer De Salvi  
+
+Create an *almost* complete website, using everything covered in the previous modules.  
+The main topics covered were:  
+- Forms  
+- Text structuring and formatting  
+- Media  
+- Tables  
+
+Some basic CSS formatting was also applied!  
+
+## Instructions Followed  
+1. Creation of a website for a medical clinic (a polyclinic was chosen).  
+2. Items included in the navigation menu:  
+   - Home Page  
+   - About the Clinic  
+   - Opening Hours  
+   - Contact  
+3. All topics covered in the lessons were used.  
+
+## Structure Followed for Each Page  
+
+### Page Structure  
+All pages follow a predefined pattern similar to the structure below.  
+
+![Structure](https://i.stack.imgur.com/9jI6f.gif)  
+
+### Structure  
+\* _The structure provided in the template was followed, with some basic formatting added to better organize the webpage._  
+
+- In the **Menu** section are the navigation items of the website.  
+- In the **Header** section of each page, an image and a short description related to that page were included.  
+- In the **Footer** section, the contact information was added.  
+- In the **Content** section, the main content of each page was included.  
+
+### Home Page  
+1. Contains an image in the **Header**.  
+2. In **Content**, there is a brief description of the clinic.  
+3. The **Menu** and **Footer** sections are standard across all pages.  
+
+### About the Clinic  
+1. Contains a different image in the **Header** section.  
+2. In **Content**, there is a text describing the clinic.  
+3. The **Menu** and **Footer** sections are standard across all pages.  
+
+### Opening Hours  
+1. Contains a different image in the **Header** section.  
+2. In **Content**, there is a short text describing the provided services, a table of medical specialties with their respective service hours, and another table listing available exams.  
+3. The **Menu** and **Footer** sections are standard across all pages.  
+
+### Contact  
+1. Contains a different image in the **Header**.  
+2. In **Content**, it includes:  
+   - Contact numbers (mobile and WhatsApp)  
+   - Full clinic address  
+   - An iframe with Google Maps showing the clinic’s location  
+   - A contact form with:  
+       - Name (type="text")  
+       - Email (type="email")  
+       - Subject (type="text")  
+       - Message (textarea)  
+       - Buttons to submit and clear the form.  
+3. The **Menu** and **Footer** sections are standard across all pages.  
+
+The challenge was successfully completed!  
+With everything learned in these modules, it was possible to build this website!  
+
+## GitHub  
+The base source code prepared for this Project Challenge is versioned on GitHub at the following address:  
+[https://github.com/digitalinnovationone/trilha-html-modulo-2](https://github.com/digitalinnovationone/trilha-html-modulo-2)  
+
+Happy learning 😎!
+
+---
+
+### [English version](#Versão-em-português)
 # Desafio de projeto
 ### Autor: Fabio Toledo Bonemer De Salvi
  
