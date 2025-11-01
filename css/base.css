@@ -1,15 +1,16 @@
 html, body {
     margin: 0;
 }
-body {
+body {    
+    min-width: 700px;
     background-color: #f1f1f1;
     display: flex;
-    justify-content: center;
+    justify-content: center;       
 }
 
 .wrapper {
     width: 1200px;
-    display: flex;
+    display: flex;       
     margin: 0 auto;
     background-color: aquamarine;
 }
@@ -20,12 +21,15 @@ body {
 }
 .menu {
     display: flex;
+    flex-shrink: 0;
+    box-sizing:border-box;
     flex-direction: column;
     align-items: center;
     justify-content:left; 
-    width: 15%;
+    min-width: 150px;
+    width: 15%;    
     background-color: rgb(234, 228, 233);
-    padding: 100px 30px 0px;
+    padding: 100px 30px 0;
 }
 .menu-logo-container img {
     width: 40px;
@@ -115,4 +119,33 @@ body {
     color: rgb(6, 30, 30);
     border-top: 3px solid rgb(1, 1, 68);
     align-items: center;
+}
+fieldset {
+    /* vertical | horizontal */
+    margin: 15px 15px;
+    border-radius: 10px;
+    /*background-color: blueviolet;*/
+
+}
+[name="contact_post"] {
+    margin: 0 auto;
+    padding: 1px;
+    /*background-color: coral;*/
+    min-width: 300px;
+    max-width: 500px;
+}
+fieldset div {
+    /*flex-direction: column;*/
+    margin: 10px 10px;    
+    /*background-color: rgb(157, 157, 242);*/
+}
+fieldset div input, fieldset div textarea {
+    width:98%;
+}
+fieldset div textarea {
+    resize: none;
+}
+.form-buttons {
+    width: fit-content;
+    margin: 0 auto;
 }
