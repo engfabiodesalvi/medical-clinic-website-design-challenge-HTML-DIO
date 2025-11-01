@@ -107,7 +107,7 @@ Todas as páginas seguem um padrão pré-definido semelhante a estrutura abaixo.
 ### Estrutura
 \* _Foi seguido a estrutura fornecida no template e acrecido algumas formatações básicas para melhor organizar a webpage_.
 
-- Seção **Menu** esta localizado os itens de navegação do website.\
+- Seção **Menu** esta localizado os itens de navegação do website.
 - Seção **Header** de cada página foi incluida uma imagem e uma descrição sobre cada página.
 - Seção **Footer** foi incluída as informações de contato.
 - Seção **Content** foi incluido o conteúdo de cada página.
