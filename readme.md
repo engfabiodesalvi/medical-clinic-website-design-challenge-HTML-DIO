@@ -29,10 +29,10 @@ Todas as páginas seguem um padrão pré-definido semelhante a estrutura abaixo.
 ### Estrutura
 \* _Foi seguido a estrutura fornecida no template e acrecido algumas formatações básicas para melhor organizar a webpage_.
 
-No seção **Menu** esta localizado os itens de navegação do website.\
-Na seção **Header** de cada página foi incluida uma imagem e uma descrição sobre cada página.
-Na seção **Footer** foi incluída as informações de contato.
-Na seção **Content** foi incluido o conteúdo de cada página.
+- Seção **Menu** esta localizado os itens de navegação do website.\
+- Seção **Header** de cada página foi incluida uma imagem e uma descrição sobre cada página.
+- Seção **Footer** foi incluída as informações de contato.
+- Seção **Content** foi incluido o conteúdo de cada página.
 
 ### Página Principal
 1. Possui uma imagem no **Header**.
@@ -55,7 +55,7 @@ Na seção **Content** foi incluido o conteúdo de cada página.
 2. Em **Content** possui:
     - Os telefones de contato (celular e whatsapp)
     - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
+    - Um Iframe com o Google Maps apontando para o endereço da clínica
     - Um formulário de contato com:
         - Nome (type="text")
         - E-mail (type="email")
